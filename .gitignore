@@ -1,0 +1,41 @@
+# --- Python Basics ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environments ---
+venv/
+env/
+.env
+.venv/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Large Data & Models (Crucial for NLP) ---
+# Exclude datasets
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.txt
+/data/
+/datasets/
+
+# Exclude model weights and checkpoints
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.safetensors
+*.bin
+*.pkl
+/models/
+/checkpoints/
+/outputs/
